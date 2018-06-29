@@ -21,13 +21,13 @@ end
 
 group :development, :test do
   gem 'rspec-rails'
-  gem 'guard-rspec'
+  gem 'guard-rspec', '>= 4.3.1'
   gem 'spork-rails'
-  gem 'guard-spork'
+  gem 'guard-spork', '>= 1.5.1'
   gem 'factory_girl_rails', :require => false
   gem 'capybara'
   gem 'launchy'
-  gem 'coveralls', require: false
+  gem 'coveralls', '>= 0.7.1', require: false
   gem 'fuubar'
 end
 
