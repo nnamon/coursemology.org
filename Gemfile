@@ -25,7 +25,7 @@ group :development, :test do
   gem 'spork-rails'
   gem 'guard-spork'
   gem 'factory_girl_rails', :require => false
-  gem 'capybara'
+  gem 'capybara', '>= 2.4.1'
   gem 'launchy'
   gem 'coveralls', require: false
   gem 'fuubar'
@@ -75,7 +75,7 @@ gem 'best_in_place'
 gem "codemirror-rails", "~> 3.14"
 gem 'htmlentities'
 gem 'aws-sdk', '1.28.0'
-gem 'sanitize'
+gem 'sanitize', '>= 3.0.0'
 gem 'acts_as_votable', '~> 0.7.1'
 gem 'gon'
 gem 'momentjs-rails'
@@ -92,8 +92,8 @@ gem 'simple_form', :github => 'plataformatec/simple_form', :branch => "v2.2"
 gem 'acts_as_relation', :github => 'raymondtangsc/acts_as_relation', :branch => 'V1.0.2'
 gem 'amoeba', :github => 'raymondtangsc/amoeba'
 gem "haml"
-gem "axlsx"
-gem "nokogiri"
+gem "axlsx", ">= 2.0.0"
+gem "nokogiri", ">= 1.10.8"
 gem "newrelic_rpm"
 gem 'dotenv-rails'
 gem "wkhtmltopdf_binary_provider"
