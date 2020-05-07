@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 source 'https://rails-assets.org'
 
-gem 'rails', '3.2.14'
+gem 'rails', '4.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -22,7 +22,7 @@ end
 group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
-  gem 'spork-rails'
+  gem 'spork-rails', '>= 4.0.0'
   gem 'guard-spork'
   gem 'factory_girl_rails', :require => false
   gem 'capybara'
@@ -56,7 +56,7 @@ gem 'mysql2'
 gem 'uglifier', '>= 1.0.3'
 gem 'jquery-rails', '2.1.3'
 gem 'jqtree-rails'
-gem 'jquery-tmpl-rails'
+gem 'jquery-tmpl-rails', '>= 1.1.0'
 gem 'devise', '3.0'
 gem 'cancancan', '~> 1.8'
 gem 'paperclip', '~>3.0'
@@ -71,7 +71,7 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem "koala"
 gem 'kaminari'
-gem 'best_in_place'
+gem 'best_in_place', '>= 3.0.0'
 gem "codemirror-rails", "~> 3.14"
 gem 'htmlentities'
 gem 'aws-sdk', '1.28.0'
@@ -97,7 +97,7 @@ gem "nokogiri"
 gem "newrelic_rpm"
 gem 'dotenv-rails'
 gem "wkhtmltopdf_binary_provider"
-gem "wicked_pdf"
+gem "wicked_pdf", ">= 0.11.0"
 gem 'imagesLoaded_rails'
 gem 'rollbar'
 gem 'simple_enum', '~> 1.6.9'
