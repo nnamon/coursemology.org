@@ -70,7 +70,7 @@ gem 'google_visualr', '>= 2.1'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem "koala"
-gem 'kaminari'
+gem 'kaminari', '>= 1.2.1'
 gem 'best_in_place'
 gem "codemirror-rails", "~> 3.14"
 gem 'htmlentities'
