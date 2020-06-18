@@ -75,7 +75,7 @@ gem 'best_in_place'
 gem "codemirror-rails", "~> 3.14"
 gem 'htmlentities'
 gem 'aws-sdk', '1.28.0'
-gem 'sanitize'
+gem 'sanitize', '>= 5.2.1'
 gem 'acts_as_votable', '~> 0.7.1'
 gem 'gon'
 gem 'momentjs-rails'

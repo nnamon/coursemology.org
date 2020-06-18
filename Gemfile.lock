@@ -136,7 +136,7 @@ GEM
       simplecov (>= 0.7)
       term-ansicolor
       thor
-    crass (0.2.1)
+    crass (1.0.6)
     daemons (1.1.9)
     dalli (2.7.2)
     delayed_job (4.0.2)
@@ -243,7 +243,7 @@ GEM
       railties (>= 3.0.0, < 5.0.0)
     method_source (0.8.2)
     mime-types (1.25.1)
-    mini_portile (0.6.0)
+    mini_portile2 (2.4.0)
     momentjs-rails (2.8.1)
       railties (>= 3.1)
     multi_json (1.10.1)
@@ -256,12 +256,12 @@ GEM
     net-ssh (2.9.1)
     netrc (0.8.0)
     newrelic_rpm (3.9.1.236)
-    nokogiri (1.6.3.1)
-      mini_portile (= 0.6.0)
-    nokogiri (1.6.3.1-x86-mingw32)
-      mini_portile (= 0.6.0)
-    nokogumbo (1.1.9)
-      nokogiri
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.9-x86-mingw32)
+      mini_portile2 (~> 2.4.0)
+    nokogumbo (2.0.2)
+      nokogiri (~> 1.8, >= 1.8.4)
     oauth2 (1.0.0)
       faraday (>= 0.8, < 0.10)
       jwt (~> 1.0)
@@ -361,10 +361,10 @@ GEM
     rspec-support (3.0.3)
     ruby-progressbar (1.7.0)
     rubyzip (0.9.9)
-    sanitize (3.0.0)
-      crass (~> 0.2.0)
-      nokogiri (>= 1.4.4)
-      nokogumbo (= 1.1.9)
+    sanitize (5.2.1)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.8.0)
+      nokogumbo (~> 2.0)
     sass (3.3.14)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -499,7 +499,7 @@ DEPENDENCIES
   rollbar
   rspec-rails
   rubyzip (~> 0.9.9)
-  sanitize
+  sanitize (>= 5.2.1)
   sass-rails (~> 3.2.3)
   scrollToFixed_rails (~> 1.0.0)
   simple_enum (~> 1.6.9)
@@ -514,4 +514,4 @@ DEPENDENCIES
   yaml_db
 
 BUNDLED WITH
-   1.10.5
+   1.17.3
