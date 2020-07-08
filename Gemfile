@@ -54,7 +54,7 @@ end
 #gem 'pg'
 gem 'mysql2'
 gem 'uglifier', '>= 1.0.3'
-gem 'jquery-rails', '2.1.3'
+gem 'jquery-rails', '3.1.3'
 gem 'jqtree-rails'
 gem 'jquery-tmpl-rails'
 gem 'devise', '3.0'
@@ -71,7 +71,7 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem "koala"
 gem 'kaminari'
-gem 'best_in_place'
+gem 'best_in_place', '>= 2.1.0'
 gem "codemirror-rails", "~> 3.14"
 gem 'htmlentities'
 gem 'aws-sdk', '1.28.0'
